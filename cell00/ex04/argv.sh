@@ -8,4 +8,3 @@ else
     do
         echo "$arg"
     done
-fi
