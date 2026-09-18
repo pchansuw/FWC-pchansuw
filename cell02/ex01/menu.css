@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-button {
+    background-color: #333333;
+    color: white;
+
+    padding: 15px 25px;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+.menu-content {
+    display: none;
+
+    position: absolute;
+
+    background-color: white;
+
+    min-width: 180px;
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-content a {
+    display: block;
+
+    color: black;
+
+    padding: 12px 16px;
+
+    text-decoration: none;
+}
+
+.menu-content a:hover {
+    background-color: #dddddd;
+}
+
+.dropdown:hover .menu-content {
+    display: block;
+}
